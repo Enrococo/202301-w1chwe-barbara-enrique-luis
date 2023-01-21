@@ -1,0 +1,26 @@
+{
+  "name": "202301-w1chwe-barbara-enrique-luis",
+  "version": "1.0.0",
+  "description": "Travellian project weekend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enrococo/bcolomer-202301-w1chwe-barbara-enrique-luis.git"
+  },
+  "keywords": [
+    "Travellian"
+  ],
+  "author": "Barbara,Luis,Enrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enrococo/bcolomer-202301-w1chwe-barbara-enrique-luis/issues"
+  },
+  "homepage": "https://github.com/Enrococo/bcolomer-202301-w1chwe-barbara-enrique-luis#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
