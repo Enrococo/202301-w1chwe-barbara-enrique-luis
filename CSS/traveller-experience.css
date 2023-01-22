@@ -7,7 +7,8 @@
 }
 .carousel__inner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 2rem;
 }
@@ -17,6 +18,7 @@
   align-items: flex-start;
   padding: 3rem 1rem 2rem;
   gap: 1rem;
+  width: 365px;
 }
 .avatar__text {
   font-family: "Rubik", sans-serif;
@@ -94,4 +96,32 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+.traveler-experience__main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2rem;
+}
+.traveler-experience__main-title--heading {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 40px;
+  color: #172432;
+}
+.line-separation {
+  width: 15rem;
+  border-bottom: 3px solid #ff7757;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.traveler-experience__main-title--paragraph {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  color: #767e86;
 }
