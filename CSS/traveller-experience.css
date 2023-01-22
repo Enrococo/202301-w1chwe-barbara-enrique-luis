@@ -95,3 +95,31 @@
   order: 1;
   flex-grow: 0;
 }
+.traveler-experience__main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2rem;
+}
+.traveler-experience__main-title--heading {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 40px;
+  color: #172432;
+}
+.line-separation {
+  width: 15rem;
+  border-bottom: 3px solid #ff7757;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.traveler-experience__main-title--paragraph {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  color: #767e86;
+}
