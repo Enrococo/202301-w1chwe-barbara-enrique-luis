@@ -1,0 +1,155 @@
+.special-offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 2rem;
+  gap: 60px;
+}
+
+.special-offers__main-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2rem;
+}
+.special-offers__main-title--heading {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1rem;
+  color: #172432;
+}
+
+.separation-line {
+  width: 15rem;
+  border-bottom: 3px solid #ff7757;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.special-offers__main-title--paragraph {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  color: #767e86;
+}
+
+.pictures-group__img-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pictures-group__img-text--img {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;*/
+  width: 22rem;
+  height: 23rem;
+}
+
+.pictures-group__img-box--box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.5rem;
+  gap: 1rem;
+  width: 22rem;
+  height: 30rem;
+  background: #fff8f1;
+  border-radius: 0px 0px 26px 26px;
+}
+
+.pictures-group__img-box--box-citystars-city {
+  font-family: "Mulish";
+  font-size: 28px;
+  color: #767e86;
+}
+
+.pictures-group__img-box--box-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  color: #172432;
+  font-size: 1.2rem;
+  display: contents;
+}
+
+.price-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.price-details__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 0.5rem;
+}
+.price-details__from {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #767e86;
+}
+.price-details__price {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8rem;
+  color: #ff7757;
+}
+.price-details__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  width: 6rem;
+  height: 3rem;
+  background: #ff7654;
+  border-radius: 12px;
+  font-family: "Rubik";
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.special-offers__carrusel-buttons-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 4rem;
+}
+.carrusel-buttons-box__prev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8rem 1.8rem;
+  background: #172432;
+  border-radius: 12px;
+  border: none;
+}
+.carrusel-buttons-box__next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8rem 1.8rem;
+  border: none;
+  background: #ff7757;
+  border-radius: 12px;
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,113 +7,201 @@
   <script src="https://kit.fontawesome.com/d44232c616.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="CSS/reset.css">
   <link rel="stylesheet" href="CSS/footer.css">
+  <link rel="stylesheet" href="special-offers.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Rubik:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Playfair+Display&family=Rubik:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="CSS/traveller-experience.css">
+  <link rel="stylesheet" href="CSS/hero.css" />
+  <link rel="stylesheet" href="CSS/fonts.css" />
   <title>Travellian Home</title>
 </head>
 
-<body>
-  <header>
-    <i class="fa-solid fa-minus"></i>
-  </header>
+  <body>
+    <section class="hero">
+      <header class="hero__header">
+        <img
+          class="hero__header--logo"
+          src="/images/Logo.png"
+          alt="travelian-logo"
+        />
+        <nav class="hero__header__nav-menu">
+          <a href="#" class="hero__header__nav-menu--link">Home</a>
+          <a href="#" class="hero__header__nav-menu--link">Explore</a>
+          <a href="#" class="hero__header__nav-menu--link">Travel</a>
+          <a href="#" class="hero__header__nav-menu--link">Blog</a>
+          <a href="#" class="hero__header__nav-menu--link">Pricing</a>
+        </nav>
+        <nav class="hero__header__log-menu">
+          <a href="#" class="hero__header__log-menu--link">Login</a>
+          <a href="#" class="hero__header__log-menu--link">Sign Up</a>
+        </nav>
+
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </header>
+      <main class="hero-main">
+        <div class="hero-main__title">
+          <h1 class="hero-main__heading">
+            Start your unforgettable journey with us.
+          </h1>
+          <h2>The best travel for your journey begins now</h2>
+        </div>
+        <div class="hero-main__book"></div>
+        <div class="hero-main__book__fill">
+          <p>
+            <label class="item">DESTINATION</label>
+          </p>
+          <input
+            type="text"
+            name="enter_destination"
+            required="obligatorio"
+            placeholder="City or country"
+          />
+          <p>
+            <label class="price_">PERSON</label>
+          </p>
+          <input
+            type="text"
+            name="enter_traveler"
+            placeholder="Name of the traveler"
+          />
+          <p>
+            <label class="item">CHECK-IN</label>
+          </p>
+          <input
+            type="date"
+            name="enter_chin"
+            required="obligatorio"
+            placeholder="Sun, 17th Sept 2023"
+          />
+          <p>
+            <label class="price_">CHECK-OUT</label>
+          </p>
+          <input
+            type="date"
+            name="enter_chout"
+            placeholder="Tue, 17th Oct 2023"
+          />
+          </div>
+          <div class="hero-main__book__button"></div>
+          <button type="submit" name="send_form" class="enviar">
+            <p>Book Now</p>
+          </button>
+        </div>
+      </main>
+    </section>
+
 
   <main>
 
-    <hgroup class="main-title">
-      <h1 class="main-title__heading">
-        Special Offer
-      </h1>
-      <hr>
-      <p class="main-title__paragraph">Check out our special offer and discounts</p>
-    </hgroup>
-    <section class="pictures-group">
-      <article class="pictures-group__img-box">
-        <img class="pictures-group__img-text--img" src="images/lisbon.png" alt="City of Lisbon in Portugal">
-        <article class="pictures-group__img-box--box">
-          <div class="pictures-group__img-box--box-citystars">
-            <div class="pictures-group__img-box--box-citystars-stars">
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-            </div>
+    <section class="special-offers">
+      <hgroup class="special-offers__main-title">
+        <h1 class="special-offers__main-title--heading">
+          Special Offer
+        </h1>
+        <hr class="separation-line">
+        <p class="special-offers__main-title--paragraph">Check out our special offer and discounts</p>
+      </hgroup>
+      <section class="special-offers__pictures-group">
+        <article class="pictures-group__img-box">
+          <img class="pictures-group__img-text--img" src="images/lisbon.png" alt="City of Lisbon in Portugal">
+          <article class="pictures-group__img-box--box">
+            <div class="pictures-group__img-box--box-citystars">
+              <div class="pictures-group__img-box--box-citystars-city">
+                Lisbon, Portugal
+              </div>
+              <div class="pictures-group__img-box--box-citystars-stars">
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+              </div>
+
+
             <div class="pictures-group__img-box--box-citystars-city">
               Lisbon, Portugal
+
             </div>
-          </div>
-          <p class="pictures-group__img-box--box-text">5 nights and 4 days in 5 star hotel, breakfast and lunch
-            included. Very popular during the
-            renaissance. Passage and
-            going through the cites of the world in classical literature.</p>
-          <div>
-            <div class="price-details">
-              <span class="price-detais__from">From</span>
-              <span class="price-details__price">€500</span>
-              <button class="price-details__details">Details</button>
+            <p class="pictures-group__img-box--box-text">5 nights and 4 days in 5 star hotel, breakfast and lunch
+              included. Very popular during the
+              renaissance. Passage and
+              going through the cites of the world in classical literature.</p>
+            <div>
+              <div class="price-details">
+                <div class="price-details__box">
+                  <div class="price-details__from">From</div>
+                  <div class="price-details__price">€500</div>
+                </div>
+                <button class="price-details__details">
+                  <div class="price-details__details--text">Details</div>
+                </button>
+              </div>
             </div>
-          </div>
+          </article>
         </article>
-      </article>
-      <article class="pictures-group__img-box">
-        <img class="pictures-group__img-text--img" src="images/athenas.png" alt="Parthenon in Athens in Greece">
-        <article class="pictures-group__img-box--box">
-          <div class="pictures-group__img-box--box-citystars">
-            <div class="pictures-group__img-box--box-citystars-stars">
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
+        <article class="pictures-group__img-box">
+          <img class="pictures-group__img-text--img" src="images/athenas.png" alt="Parthenon in Athens in Greece">
+          <article class="pictures-group__img-box--box">
+            <div class="pictures-group__img-box--box-citystars">
+              <div class="pictures-group__img-box--box-citystars-stars">
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+              </div>
+              <div class="pictures-group__img-box--box-citystars-city">
+                Athens, Greece
+              </div>
             </div>
-            <div class="pictures-group__img-box--box-citystars-city">
-              Athens, Greece
+            <p class="pictures-group__img-box--box-text">5 nights and 4 days in 5 star hotel, breakfast and lunch
+              included. Very popular during the renaissance. Passage and
+              going through the cites of the world in classical literature.</p>
+            <div>
+              <div class="price-details">
+                <div class="price-detais__from">From</div>
+                <div class="price-details__price">€800</div>
+                <button class="price-details__details">Details</button>
+              </div>
             </div>
-          </div>
-          <p class="pictures-group__img-box--box-text">5 nights and 4 days in 5 star hotel, breakfast and lunch
-            included. Very popular during the renaissance. Passage and
-            going through the cites of the world in classical literature.</p>
-          <div>
-            <div class="price-details">
-              <span class="price-detais__from">From</span>
-              <span class="price-details__price">€800</span>
-              <button class="price-details__details">Details</button>
-            </div>
-          </div>
+          </article>
         </article>
-      </article>
-      <article class="pictures-group__img-box">
-        <img class="pictures-group__img-text--img" src="images/rome.png" alt="Venetian canals in Italy">
-        <article class="pictures-group__img-box--box">
-          <div class="pictures-group__img-box--box-citystars">
-            <div class="pictures-group__img-box--box-citystars-stars">
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
-              <img class="rating-star" src="images/star.svg" alt="golden star" />
+        <article class="pictures-group__img-box">
+          <img class="pictures-group__img-text--img" src="images/rome.png" alt="Venetian canals in Italy">
+          <article class="pictures-group__img-box--box">
+            <div class="pictures-group__img-box--box-citystars">
+              <div class="pictures-group__img-box--box-citystars-stars">
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+                <img class="rating-star" src="images/star.svg" alt="golden star" />
+              </div>
+              <div class="pictures-group__img-box--box-citystars-city">
+                Rome, Italy </div>
             </div>
-            <div class="pictures-group__img-box--box-citystars-city">
-              Rome, Italy </div>
-          </div>
-          <p class="pictures-group__img-box--box-text">5 nights and 4 days in 5 star hotel, breakfast and lunch
-            included. Very popular during the renaissance. Passage and
-            going through the cites of the world in classical literature.</p>
-          <div>
-            <div class="price-details">
-              <span class="price-detais__from">From</span>
-              <span class="price-details__price">€750</span>
-              <button class="price-details__details">Details</button>
+            <p class="pictures-group__img-box--box-text">5 nights and 4 days in 5 star hotel, breakfast and lunch
+              included. Very popular during the renaissance. Passage and
+              going through the cites of the world in classical literature.</p>
+            <div>
+              <div class="price-details">
+                <div class="price-detais__from">From</div>
+                <div class="price-details__price">€750</div>
+                <button class="price-details__details">Details</button>
+              </div>
             </div>
-          </div>
+          </article>
         </article>
-      </article>
+      </section>
+      <div class="special-offers__carrusel-buttons-box">
+        <button class="carrusel-buttons-box__prev"><img src="images/prev.svg" alt="preview button"></button>
+        <button class="carrusel-buttons-box__next"><img src="images/next.svg " alt="next button"></button>
+      </div>
     </section>
-    <div class="carrusel-buttons-box">
-      <button class="carrusel-buttons-box__prev"><img src="images/prev.svg" alt="preview button"></button>
-      <button class="carrusel-buttons-box__next"><img src="images/next.svg " alt="next button"></button>
-    </div>
-
-
-
+    
     <section>
       <hgroup class="special-offers__main-title">
         <h1 class="special-offers__main-title--heading">
@@ -132,76 +219,99 @@
               and I will give you a complete account of the system and expound the actual teachings of the great
               explorer
               of the truth, the master-builder of human happiness.</p>
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <div class="traveller">
-              <p>
-                <span class="traveller_name">
-                  John Doe
-                </span>
-                <span class="traveller_position">
-                  Accountant
-                </span>
-              </p>
-            </div>
+              
 
+    <section class="carousel">
+
+      <div class="carousel__inner">
+        <div class="carousel__traveler">
+          <img src="/images/avatar.png" class="carousel__avatar" alt="avatar-image">
+          <p class="avatar__text">But I must explain to you how all this mistaken idea of denouncing pleasure
+            and praising pain was born
+            and I will give you a complete account of the system and expound the actual teachings of the great
+            explorer
+            of the truth, the master-builder of human happiness.</p>
+          <div>
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
           </div>
-          <div class="carousel__traveler">
-            <img src="/images/avatar2.png" class="avatar2" alt="avatar-image">
-            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
-              and I will give you a complete account of the system and expound the actual teachings of the great
-              explorer
-              of the truth, the master-builder of human happiness.</p>
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <div class="traveller">
-              <p>
-                <span class="traveller_name">
-                  John Smith
-                </span>
-                <span class="traveller_position">
-                  Journalist, HWO News
-                </span>
-              </p>
-            </div>
+
+          <div class="traveller">
+            <p class="traveller__information">
+              <span class="traveller__name">
+                John Doe
+              </span>
+              <span class="traveller__position">
+                Accountant
+              </span>
+            </p>
           </div>
-          <div class="carousel__traveler">
-            <img src="/images/avatar3.png" class="avatar3" alt="avatar-image">
-            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
-              and I will give you a complete account of the system and expound the actual teachings of the great
-              explorer of the
-              truth, the master-builder of human happiness.</p>
+
+        </div>
+        <div class="carousel__traveler">
+          <img src="/images/avatar2.png" class="carousel__avatar" alt="avatar-image">
+          <p class="avatar__text">But I must explain to you how all this mistaken idea of denouncing pleasure
+            and praising pain was born
+            and I will give you a complete account of the system and expound the actual teachings of the great
+            explorer
+            of the truth, the master-builder of human happiness.</p>
+          <div>
             <img src="/images/star.png" class="rating-star" alt="rating-star">
             <img src="/images/star.png" class="rating-star" alt="rating-star">
             <img src="/images/star.png" class="rating-star" alt="rating-star">
             <img src="/images/star.png" class="rating-star" alt="rating-star">
             <img src="/images/star.png" class="rating-star" alt="rating-star">
-            <div class="traveller">
-              <p>
-                <span class="traveller_name">
-                  Tamara Bellis
-                </span>
-                <span class="traveller_position">
-                  Managing Director, JTH
-                </span>
-              </p>
-            </div>
+          </div>
+
+          <div class="traveller">
+            <p class="traveller__information">
+              <span class="traveller__name">
+                John Smith
+              </span>
+              <span class="traveller__position">
+                Journalist, HWO News
+              </span>
+            </p>
           </div>
         </div>
-        <div class="carousel__buttons-box">
-          <button class="carousel__buttons-box__prev" type="button">
-            <img src="images/vector-left.png" class="" alt="button to view next content" />
-          </button>
-          <button class="carousel__buttons-box_next" type="button">
-            <img src="images/vector-right.png" alt="button to view next content" />
-          </button>
+        <div class="carousel__traveler">
+          <img src="/images/avatar3.png" class="carousel__avatar" alt="avatar-image">
+          <p class="avatar__text">But I must explain to you how all this mistaken idea of denouncing pleasure
+            and praising pain was born
+            and I will give you a complete account of the system and expound the actual teachings of the great
+            explorer of the
+            truth, the master-builder of human happiness.</p>
+          <div>
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+            <img src="/images/star.png" class="rating-star" alt="rating-star">
+          </div>
+
+          <div class="traveller">
+            <p class="traveller__information">
+              <span class="traveller__name">
+                Tamara Bellis
+              </span>
+              <span class="traveller__position">
+                Managing Director, JTH
+              </span>
+            </p>
+          </div>
         </div>
+      </div>
+      <div id="carouselTravelers" class="carousel__buttons-box">
+        <button class="carousel__buttons-box__prev" type="button">
+          <img src="images/vector-left.png" class="" alt="button to view next content" />
+        </button>
+        <button class="carousel__buttons-box__next" type="button">
+          <img src="images/vector-right.png" alt="button to view next content" />
+        </button>
+
       </div>
     </section>
 
@@ -261,3 +371,4 @@
 </body>
 
 </html>
+
