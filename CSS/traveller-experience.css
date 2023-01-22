@@ -7,7 +7,8 @@
 }
 .carousel__inner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 2rem;
 }
@@ -17,6 +18,7 @@
   align-items: flex-start;
   padding: 3rem 1rem 2rem;
   gap: 1rem;
+  width: 365px;
 }
 .avatar__text {
   font-family: "Rubik", sans-serif;
