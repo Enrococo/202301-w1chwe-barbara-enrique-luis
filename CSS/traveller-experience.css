@@ -1,0 +1,97 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 1rem;
+}
+.carousel__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.carousel__traveler {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3rem 1rem 2rem;
+  gap: 1rem;
+}
+.avatar__text {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #767e86;
+}
+.traveller__information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 0.25rem;
+}
+.traveller__name {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #767e86;
+}
+.traveller__position {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+
+  color: #767e86;
+}
+.carousel__buttons-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 2.5rem;
+  width: 10.75rem;
+  height: 3.75rem;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.carousel__buttons-box__prev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.75rem 1.25rem;
+  gap: 0.25rem;
+  width: 3.75rem;
+  height: 4.12rem;
+  background: #172432;
+  border-radius: 0.75rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.carousel__buttons-box__next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.75rem 1.25rem;
+  gap: 0.25rem;
+  width: 3.75rem;
+  height: 4.12rem;
+  background: #ff7757;
+  border-radius: 0.75rem;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
